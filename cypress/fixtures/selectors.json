@@ -1,0 +1,96 @@
+{
+ "registrationPage": {
+"registerLink": "p:nth-child(3) > a",
+"registerPage": ".title",
+"registerPage2": "div:nth-child(2) > p",
+"firstNameField": "tr:nth-child(1) input",
+"lastNameField": "tr:nth-child(2) input",
+"addressField": "tr:nth-child(3) input",
+"cityField": "tr:nth-child(4) input",
+"stateField": "tr:nth-child(5) input",
+"zipCodeField": "tr:nth-child(6) input",
+"phoneField": "tr:nth-child(7) input",
+"ssnField": "tr:nth-child(8) input",
+"usernameField": "tr:nth-child(10) input",
+"passwordField": "tr:nth-child(11) input",
+"confirmPasswordField": "#repeatedPassword",
+"passwordVal": "1234",
+"confirmPasswordVal": "1234",
+"signUpPageField": "h1.title",
+"signUpPageField2": "div:nth-child(2) > p",
+"registerPageVal": "Signing up is easy!",
+"registerPageVal2": "If you have an account with us you can sign-up for free instant online access. You will have to provide some personal information.",
+"registerBtn": "input[value='Register']",
+"signUpPageVal": "Welcome",
+"signUpPageVal2": "Your account was created successfully. You are now logged in."
+  },
+
+  "loginPage": {
+    "loginPageField": "div:nth-child(3) > div:nth-child(1) > h2",
+    "usernameField": "input[name='username']",
+    "passwordField": "input[name='password']",
+    "verifyLoginField": "div:nth-child(2) > div > div:nth-child(1) > h1",
+    "loginPageVal": "Customer Login",
+    "verifyLoginVal": "Accounts Overview",
+    "loginBtn": "input[type='submit']",
+    "usernameVal": "sen",
+    "passwordVal": "@sen",
+    "invalidUsernameVal": "invalid",
+    "invalidPasswordVal": "invalid",
+    "errorField1": "div:nth-child(3) > div:nth-child(2) > h1",
+    "errorField2": "div:nth-child(3) > div:nth-child(2) > p",
+ "errorMssg1": "Error!",
+    "errorMssg2": "Please enter a username and password."
+  },
+
+  "openAccount": {
+    "openNewAcct": "ul:nth-child(3) > li:nth-child(1) > a",
+    "openNewAcctTitle": "#openAccountForm > h1",
+    "openNewAcctVal": "Open New Account",
+    "typeOfAcct": "select:nth-child(2)",
+    "typeOfAcctVal": "SAVINGS",
+    "depositFund": "select:nth-child(6)",
+    "openNewAcctBtn": "input[value='Open New Account']",
+    "acctValidity": "div:nth-child(2) > h1",
+    "acctValidityVal": "Account Opened!",
+    "congratsField": "div:nth-child(2) > p:nth-child(2)",
+    "congratsVal": "Congratulations, your account is now open."
+  },
+
+  "transferFunds": {
+    "transferFund": "ul:nth-child(3) > li:nth-child(3) > a",
+    "transferFundValidity": "#showForm > h1.title",
+    "transferFundValidityVal": "Transfer Funds",
+    "amountField": "input:nth-child(2)",
+    "amountVal": "10",
+    "fromAcctField": "select:nth-child(1)",
+    "toAcctField": "select:nth-child(2)",
+    "toAcctVal": "26664",
+    "transferBtn": "input[value='Transfer']",
+    "transferCompleteField": "div:nth-child(2) > h1",
+    "transferCompleteVal": "Transfer Complete!"
+  },
+
+  "requestLoan": {
+    "requestLoanLink": "ul:nth-child(3) > li:nth-child(7) > a",
+    "requestLoanTitle": "div:nth-child(1) > h1",
+    "requestLoanVal": "Apply for a Loan",
+    "loanAmtField": "tr:nth-child(1) input",
+    "loanAmtVal": "20",
+    "downPaymentField": "tr:nth-child(2) input",
+    "downPaymentVal": "10",
+    "fromAcctDropdown": "select#fromAccountId.input",
+    "applyBtn": "input[value='Apply Now']",
+    "loanRequestPage": "div:nth-child(2) > h1",
+    "loanRequestVal": "Loan Request Processed",
+    "loanCongratsField": "div:nth-child(5) > p:nth-child(1)",
+    "loanCongratsVal": "Congratulations, your loan has been approved."
+  },
+
+  "logOut": {
+    "logOutLink": "ul:nth-child(3) > li:nth-child(8) > a",
+    "leftPanelData": "div > div > div:nth-child(1) > h2",
+    "leftPanelDataVal": "Customer Login"
+
+  }
+}
